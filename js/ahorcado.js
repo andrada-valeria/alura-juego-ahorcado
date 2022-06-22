@@ -3,17 +3,15 @@ eventoTecla = document.addEventListener("keydown", letraEscritas);
 
 var pantalla = document.querySelector("canvas");
 var pincel = pantalla.getContext("2d");
-/*
-var popupContainer = document.getElementById("popup-container");
-var btnPopup = document.getElementById("btn-popup");*/
+
 var btnMeRindo = document.getElementById("me_rindo");
 var letrasColor= "white";
 
 /*audio*/
-const audioGano = new Audio("../sound/gano.mp3");
-const audioPerdio = new Audio("../sound/perdio.mp3");
-const audioError= new Audio("../sound/error.mp3");
-const audioAcerto = new Audio("../sound/acierto.mp3");
+const audioGano = new Audio("sound/gano.mp3");
+const audioPerdio = new Audio("sound/perdio.mp3");
+const audioError= new Audio("sound/error.mp3");
+const audioAcerto = new Audio("sound/acierto.mp3");
 
 
 
