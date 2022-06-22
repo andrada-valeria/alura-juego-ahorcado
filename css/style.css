@@ -1,7 +1,7 @@
 
-body,#box-juego{
-    /*background: url("../img/pizarra.jpg") no-repeat;*/
-    background-color: cadetblue;
+body{
+    background: url("../img/pizarra.jpg") no-repeat;
+  
     justify-content: center;
 }
 /*
