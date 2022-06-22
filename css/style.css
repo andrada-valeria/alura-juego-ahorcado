@@ -1,5 +1,5 @@
 
-body{
+body,#box-juego{
     background: url("/img/pizarra.jpg") no-repeat;
     justify-content: center;
 }
